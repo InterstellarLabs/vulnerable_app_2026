@@ -1,0 +1,5 @@
+# Default owner for everything in the repo
+*                    @v-vpulagam
+
+# Security configuration (later rules take precedence)
+/.github/            @v-vpulagam
