@@ -26,10 +26,9 @@ try {
 }
 console.log('');
 
-// 3. Handlebars Template Injection (CVE-2021-23369)
+// 3. Handlebars (CVE-2021-23369)
 console.log('3. Handlebars Version:', handlebars.VERSION);
-console.log('   - Vulnerable to remote code execution in versions <= 4.7.6');
-console.log('   - Can execute arbitrary code through template compilation\n');
+console.log('   - CVE-2021-23369 is fixed in versions >= 4.7.7\n');
 
 // 4. Moment.js ReDoS Vulnerability
 console.log('4. Moment.js Version:', moment.version);

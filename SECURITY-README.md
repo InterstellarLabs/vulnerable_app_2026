@@ -64,7 +64,6 @@ Declared dependencies and known advisories:
 
 | Ecosystem | Package | Locked version | Known issue |
 |-----------|---------|----------------|-------------|
-| npm (root) | **handlebars** | 4.7.6 | CVE-2021-23369 - Critical, RCE via template compilation |
 | npm (root) | **minimist** | 1.2.5 | CVE-2021-44906 - Critical, prototype pollution |
 | npm (root) | **lodash** | 4.17.15 | CVE-2020-8203, CVE-2021-23337 - High, prototype pollution / command injection |
 | npm (root) | **moment** | 2.24.0 | CVE-2022-24785, CVE-2022-31129 - High, path traversal / ReDoS |
