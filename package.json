@@ -1,0 +1,18 @@
+{
+  "name": "ghas-vulnerable-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable demo for GitHub Advanced Security POC",
+  "main": "vulnerable-demo.js",
+  "scripts": {
+    "start": "node vulnerable-demo.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "4.7.6",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5",
+    "moment": "2.24.0",
+    "node-forge": "0.10.0"
+  }
+}
